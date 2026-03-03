@@ -1,12 +1,12 @@
-import WebApp from '@twa-dev/sdk'
 import { useEffect } from 'react'
 
 function App() {
 	useEffect(() => {
-		WebApp.ready()
-		WebApp.expand()
-
-		console.log(WebApp.initDataUnsafe)
+		if (window.Telegram?.WebApp) {
+			const tg = window.Telegram.WebApp
+			tg.ready()
+			tg.expand()
+		}
 	}, [])
 
 	return (
