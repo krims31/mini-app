@@ -13,7 +13,7 @@ function App() {
 		<div>
 			<h1
 				style={{
-					fontSize: '10px'
+					fontSize: '50px'
 				}}
 			>
 				Telegram Mini App
