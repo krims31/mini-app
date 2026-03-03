@@ -11,7 +11,13 @@ function App() {
 
 	return (
 		<div>
-			<h1>Telegram Mini App</h1>
+			<h1
+				style={{
+					fontSize: '10px'
+				}}
+			>
+				Telegram Mini App
+			</h1>
 		</div>
 	)
 }
